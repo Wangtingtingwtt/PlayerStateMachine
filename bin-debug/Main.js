@@ -102,6 +102,7 @@ var Main = (function (_super) {
      * Create a game scene
      */
     p.createGameScene = function () {
+        
         var sky = this.createBitmapByName("bj_out1_jpg");
         this.addChild(sky);
         var stageW = this.stage.stageWidth;
